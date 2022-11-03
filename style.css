@@ -25,13 +25,27 @@ h3 {
   width: 500px;
 }
 
+.random-btn {
+  background-color: rgb(10, 121, 64);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.random-btn:hover {
+  background-color: #fff;
+  color: rgb(10, 121, 64);
+  cursor: pointer;
+}
+
 .tag {
   background-color: rgb(190, 62, 27);
   border-radius: 10px;
   color: #fff;
   display: inline-block;
   font-size: 14px;
-  margin: 0 5px 10px 0;
+  margin: 10px 5px 10px 0;
   padding: 10px;
 }
 

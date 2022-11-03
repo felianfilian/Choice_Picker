@@ -1,11 +1,14 @@
 const tagsEl = document.getElementById("tags");
 const textArea = document.getElementById("textarea");
+const randomBtn = document.getElementById("random-btn");
 
 textArea.focus();
 
 textArea.addEventListener("keyup", (e) => {
   createTags(e.target.value);
 });
+
+randomBtn.addEventListener("click", () => {});
 
 function createTags(input) {
   const tags = input

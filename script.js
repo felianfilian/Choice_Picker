@@ -8,7 +8,9 @@ textArea.addEventListener("keyup", (e) => {
   createTags(e.target.value);
 });
 
-randomBtn.addEventListener("click", () => {});
+randomBtn.addEventListener("click", () => {
+  randomSelect();
+});
 
 function createTags(input) {
   const tags = input
@@ -23,4 +25,8 @@ function createTags(input) {
     tagEl.innerText = tag;
     tagsEl.appendChild(tagEl);
   });
+}
+
+function randomSelect() {
+  console.log(123);
 }
